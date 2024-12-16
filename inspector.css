@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  /* Syntax Colors */
+  --syntax_normal: #220032;
+  --syntax_comment: #a9b0bc;
+  --syntax_number: #20a5ba;
+  --syntax_keyword: #c30771;
+  --syntax_atom: #10a778;
+  --syntax_string: #008ec4;
+  --syntax_error: #ffbedc;
+  --syntax_unknown_variable: #838383;
+  --syntax_known_variable: #005f87;
+  --syntax_matchbracket: #20bbfc;
+
+  /* Fonts */
+  --mono_fonts: 82%/1.5 "Roboto", "Helvetica", sans-serif; /* Ändere die Schriftart */
+  --bold_mono_fonts: 82%/1.5 "Roboto", "Helvetica", sans-serif; /* Fett definieren */
+}
+
+/* General Styles */
+.observablehq--collapsed,
+.observablehq--expanded,
+.observablehq--function,
+.observablehq--gray,
+.observablehq--import,
+.observablehq--string:after,
+.observablehq--string:before {
+  color: var(--syntax_normal);
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--collapsed,
+.observablehq--inspect a {
+  cursor: pointer;
+}
+
+.observablehq--field {
+  text-indent: -1em;
+  margin-left: 1em;
+}
+
+.observablehq--empty {
+  color: var(--syntax_comment);
+  font-style: oblique;
+}
+
+/* Syntax Highlighting */
+.observablehq--blue,
+.observablehq--keyword {
+  color: #3182bd;
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--forbidden,
+.observablehq--pink {
+  color: #e377c2;
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--orange {
+  color: #e6550d;
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--boolean,
+.observablehq--null,
+.observablehq--undefined {
+  color: var(--syntax_atom);
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--bigint,
+.observablehq--date,
+.observablehq--green,
+.observablehq--number,
+.observablehq--regexp,
+.observablehq--symbol {
+  color: var(--syntax_number);
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--index,
+.observablehq--key {
+  color: var(--syntax_key);
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--prototype-key {
+  color: #aaa;
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--purple,
+.observablehq--string {
+  color: var(--syntax_string);
+  font-weight: 700; /* Fett */
+}
+
+.observablehq--error,
+.observablehq--red {
+  color: #e7040f;
+  font-weight: 700; /* Fett */
+}
+
+/* Inspect Styles */
+.observablehq--inspect {
+  font-family: "Roboto", sans-serif !important; /* Schriftart speziell für den Inspektor */
+  font-weight: 700; /* Fett */
+  overflow-x: auto;
+  display: block;
+  white-space: pre;
+}
+
+.observablehq--error .observablehq--inspect {
+  word-break: break-all;
+  white-space: pre-wrap;
+  font-weight: 700; /* Fett */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #220032; /* Violette Hintergrundfarbe */
+  font-family: "Roboto", sans-serif; /* Globale Schriftart für die gesamte Seite */
+  font-weight: 700; /* Schrift fett für die gesamte Seite */
+}
+
+/* Füge dies am Ende des CSS hinzu */
+
+/* Container für Titel, Untertitel und Chart */
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #220032;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #a169bd;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 0; /* Kein Abstand nach unten */
+  align-self: flex-start;
+  margin-top: 20px; /* Abstand nach oben */
+}
+
+.page-subtitle {
+  font-size: 18px;
+  color: #ada3a3;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-left: 40px;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-top: 20px; /* Abstand nach oben */
+}
+
+#chart {
+  flex-grow: 0.2; /* Der Chart nimmt den restlichen Platz ein */
+  width: 100%;
+  align-self: center;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #828282;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  max-width: 1200px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 20px;
+}
+.bold-text {
+  font-weight: bold;
+  color: white;
+}

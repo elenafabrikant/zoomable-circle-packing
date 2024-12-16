@@ -1,0 +1,85 @@
+{
+    "Daten": [
+      {
+        "company": "Saudi Aramco (Asien)",
+        "emissions": 59.26
+      },
+      {
+        "company": "Chevron (Nordamerika)",
+        "emissions": 43.35
+      },
+      {
+        "company": "Gazprom (Europa)",
+        "emissions": 43.23
+      },
+      {
+        "company": "ExxonMobil (Nordamerika)",
+        "emissions": 41.9
+      },
+      {
+        "company": "National Iranien Oil Co. (Asien)",
+        "emissions": 35.66
+      },
+      {
+        "company": "BP (Europa)",
+        "emissions": 34.02
+      },
+      {
+        "company": "Royal Dutch Shell (Europa)",
+        "emissions": 31.95
+      },
+      {
+        "company": "Coal India (Asien)",
+        "emissions": 23.12
+      },
+      {
+        "company": "Pemex (Südamerika)",
+        "emissions": 22.65
+      },
+      {
+        "company": "Petroleos de Venezuela (Südamerika)",
+        "emissions": 15.75
+      },
+      {
+        "company": "PetroChina (Asien)",
+        "emissions": 15.63
+      },
+      {
+        "company": "Peabody Energy (Nordamerika)",
+        "emissions": 15.39
+      },
+      {
+        "company": "ConocoPhillips (Nordamerika)",
+        "emissions": 15.23
+      },
+      {
+        "company": "Abu Dhabi National Oil Co (Asien)",
+        "emissions": 13.84
+      },
+      {
+        "company": "Kuwait Petroleum Corp (Asien)",
+        "emissions": 13.48
+      },
+      {
+        "company": "Iraq National Oil Co (Asien)",
+        "emissions": 12.6
+      },
+      {
+        "company": "Total SA (Europa)",
+        "emissions": 12.35
+      },
+      {
+        "company": "Sonatrach (Afrika)",
+        "emissions": 12.3
+      },
+      {
+        "company": "BHP Biliton (Australien)",
+        "emissions": 9.8
+      },
+      {
+        "company": "Petrobras (Südamerika)",
+        "emissions": 8.68
+      }
+    ]
+  }
+  

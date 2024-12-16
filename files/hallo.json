@@ -1,0 +1,131 @@
+{
+  "name": "Global Emissions",
+  "children": [
+    {
+      "name": "Fossil Fuel Companies",
+      "children": [
+        {
+          "name": "Saudi Aramco",
+          "number": "59.62 tonnes CO2",
+          "value": 5000,
+          "percentage": "20%",
+          "children": []
+        },
+        {
+          "name": "Chevron",
+          "number": "43.35 tonnes CO2",
+          "value": 3700.5,
+          "children": []
+        },
+        {
+          "name": "Gazprom",
+          "number": "43.23 tonnes CO2",
+          "value": 3647.5,
+          "children": []
+        },
+        {
+          "name": "ExxonMobil",
+          "number": "41.9 tonnes CO2",
+          "value": 3535,
+          "children": []
+        },
+        {
+          "name": "National Iranien Oil Co.",
+          "number": "35.66 tonnes CO2",
+          "value": 2990.5,
+          "children": []
+        },
+        {
+          "name": "BP",
+          "number": "34.02 tonnes CO2",
+          "value": 2850,
+          "children": []
+        },
+        {
+          "name": "Royal Dutch Shell",
+          "number": "31.95 tonnes CO2",
+          "value": 2679,
+          "children": []
+        },
+        {
+          "name": "Coal India",
+          "number": "23.12 tonnes CO2",
+          "value": 1939,
+          "children": []
+        },
+        {
+          "name": "Pemex",
+          "number": "22.65 tonnes CO2",
+          "value": 1899,
+          "children": []
+        },
+        {
+          "name": "Petroleos de Venezuela",
+          "number": "15.75 tonnes CO2",
+          "value": 1321,
+          "children": []
+        },
+        {
+          "name": "PetroChina",
+          "number": "15.63 tonnes CO2",
+          "value": 1310,
+          "children": []
+        },
+        {
+          "name": "Peabody Energy",
+          "number": "15.39 tonnes CO2",
+          "value": 1290,
+          "children": []
+        },
+        {
+          "name": "ConocoPhillips",
+          "number": "15.23 tonnes CO2",
+          "value": 1277,
+          "children": []
+        },
+        {
+          "name": "Abu Dhabi National Oil Co",
+          "number": "13.84 tonnes CO2",
+          "value": 1160,
+          "children": []
+        },
+        {
+          "name": "Kuwait Petroleum Corp",
+          "number": "13.48 tonnes CO2",
+          "value": 1130,
+          "children": []
+        },
+        {
+          "name": "Iraq National Oil Co",
+          "number": "12.6 tonnes CO2",
+          "value": 1056,
+          "children": []
+        },
+        {
+          "name": "Total SA",
+          "number": "12.35 tonnes CO2",
+          "value": 1035.832,
+          "children": []
+        },
+        {
+          "name": "Sonatrach",
+          "number": "12.3 tonnes CO2",
+          "value": 1031.638,
+          "children": []
+        },
+        {
+          "name": "BHP Biliton",
+          "number": "9.8 tonnes CO2",
+          "value": 821.955,
+          "children": []
+        },
+        {
+          "name": "Petrobras",
+          "number": "8.68 tonnes CO2",
+          "value": 760,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
